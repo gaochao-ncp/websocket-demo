@@ -1,0 +1,20 @@
+websocket:
+  #链接地址
+  pathPrefix: "/ws-push"
+  path: "/endpointWisely"
+  #消息代理路径
+  broadCastPath: "/topic"
+  #前端发送给服务端请求地址
+  foreToServerPath: "/welcome"
+  #服务端生产地址,客户端订阅此地址以接收服务端生产的消息
+  producerPath: "/topic/getResponse"
+  #点对点消息推送地址前缀
+  p2pushBasePrefixPath: "/user"
+  #点对点消息推送地址后缀,最后的地址为/user/用户识别码/msg
+  p2pushBaseSuffixPath: "/msg"
+
+
+
+
+
+
